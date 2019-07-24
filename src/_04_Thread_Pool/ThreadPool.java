@@ -6,4 +6,17 @@ public class ThreadPool {
 		// TODO Auto-generated constructor stub
 	}
 
+	public void addTask(Task t) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void start() {
+		// TODO Auto-generated method stub
+		
+	}
+
+		// TODO Auto-generated method stub
+		
+
 }
