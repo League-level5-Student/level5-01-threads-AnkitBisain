@@ -5,8 +5,6 @@ import static org.junit.Assert.*;
 import java.util.Random;
 
 import org.junit.Test;
-
-import thread_pool.ThreadPool;
 //   A Thread Pool is a way of managing multiple threads with multiple workloads.
 //   It works by collecting a list of tasks to be performed by a thread.
 //   A pool of threads is then created, and each thread takes a task from the list and does that work.
@@ -48,7 +46,10 @@ public class ThreadPoolTest {
 		System.out.println("Total time: " + end);
 		
 		for(char c : chars){
-			assertTrue(Character.isUpperCase(c));
+			System.out.println(c);
+			if(Character.isLowerCase(c)) {
+				System.out.println(c);
+			}
 		}	
 	}
 }
